@@ -29,7 +29,7 @@ export const achievementsData: Achievement[] = [
     id: "DataViz",
     title: "DataViz - A Signature Event of STEPCONE - 2024, GMRIT",
     description: "A Dataset is processed & then visualized by making a dashboard by using streamlit library",
-    image: "/images/certifications/dataVizlogo.png",
+    image: "/images/certifications/DataVizlogo.png",
     tags: ["Visualization", "Python", "DashBoard"],
     certificate: "/certificates/DataViz.jpg",
   },
