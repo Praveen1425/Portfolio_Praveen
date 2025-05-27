@@ -15,7 +15,8 @@ const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center pt-16">
       <div className="w-full max-w-5xl mx-auto px-4 py-16 md:py-24">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-8 items-center">
+          {/* Text Content */}
           <div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -24,10 +25,13 @@ const HeroSection = () => {
               className="mb-4"
             >
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-2">
-                Muccharla Praveen
+                <b>Muccharla Praveen</b>
               </h1>
               <h2 className="text-xl md:text-2xl font-medium text-muted-foreground mb-4">
-                Aspiring ML Engineer
+                {/* Aspiring ML Engineer */}
+              </h2>
+              <h2 className="text-xl md:text-2xl font-medium text-muted-foreground mb-4">
+                {/* Salesforce Trainee */}
               </h2>
             </motion.div>
 
@@ -37,9 +41,13 @@ const HeroSection = () => {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="text-muted-foreground text-lg mb-6 max-w-md"
             >
-              Building AI-powered solutions and transforming data into meaningful
-              insights. Passionate about machine learning and deep learning
-              applications.
+              <b>AI & ML Enthusiast</b>  
+              <br />
+              Building AI solutions and extracting insights from data. Passionate about ML and deep learning.
+              <br /><br />
+              <b>Salesforce Trainee</b>  
+              <br />
+              Exploring Salesforce to build CRM solutions. Interested in cloud tech and automation.
             </motion.p>
 
             <motion.div
@@ -87,18 +95,19 @@ const HeroSection = () => {
             </motion.div>
           </div>
 
+          {/* Responsive Image Section */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={isVisible ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.9 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="relative hidden md:block"
+            className="relative block w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto"
           >
             <div className="aspect-square rounded-2xl bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 p-1">
               <div className="rounded-xl h-full w-full overflow-hidden bg-muted/50 flex items-center justify-center">
                 <img
-                  src="praveen.png"
-                  alt="Abstract Data Visualization"
-                  className="w-[450px] h-[450px] rounded-xl object-cover"
+                  src="/praveen.png"
+                  alt="Praveen"
+                  className="w-full h-full object-cover rounded-xl"
                 />
               </div>
             </div>
