@@ -68,11 +68,6 @@ const Header = () => {
           <Link href="/#achievements" className="text-sm hover:text-primary transition-colors">Achievements</Link>
           <Link href="/#contact" className="text-sm hover:text-primary transition-colors">Contact</Link>
 
-          {isLoggedIn ? (
-            <Button onClick={handleLogout} size="sm" variant="outline">Logout</Button>
-          ) : (
-            <Link href="/login"><Button variant="outline" size="sm">Login</Button></Link>
-          )}
 
           <ThemeToggle />
         </motion.nav>
