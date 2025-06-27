@@ -31,6 +31,6 @@ export const achievementsData: Achievement[] = [
     description: "A Dataset is processed & then visualized by making a dashboard by using streamlit library",
     image: "/images/certifications/DataVizlogo.png",
     tags: ["Visualization", "Python", "DashBoard"],
-    certificate: "/certificates/DataViz.jpg",
+    certificate: "C:\Users\prave\amanraghav\Praveen Portfolio\public\certificates\DataViz.jpg",
   },
 ];

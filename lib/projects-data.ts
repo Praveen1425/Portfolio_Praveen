@@ -47,21 +47,21 @@ export const projectsData: Project[] = [
     githubUrl: "https://github.com/Praveen1425/Sentence-AutoCompletion",
   },
   {
-    id: "Mental Health Detection via Social Media Posts",
-    title: "Mental Health Detection via Social Media Posts",
-    description: "Comming soon ...",
-    image: "socail.jpg",
-    category: "Natural Language Processing",
-    tags: ["Python", "Transformers", "NLP"],
-    githubUrl: "https://github.com/Praveen14_25/ai-chatbot",
+  id: "College Placement Portal with AI Features",
+  title: "College Placement Portal",
+  description: "A comprehensive Flask-based web application for managing college placements, featuring AI-powered tools like chatbot assistance, resume analysis, and selection prediction.",
+  image: "PlacementPortal.jpg",
+  category: "Web Development",
+  tags: ["Python", "Flask",  "AI", "HTML", "CSS", "JavaScript"],
+  githubUrl: "https://github.com/Praveen1425/CollegePlacementPortal"
   },
   {
-    id: "chatbot-assistant",
-    title: "Personalized AI Chat Assistant for Seamless Interactions",
+    id: "Personal Voice Assistant",
+    title: "Personalized AI Voice Assistant for Seamless Interactions",
     description: "Comming soon ...",
-    image: "https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "voice translator.png",
     category: "Conversational AI",
-    tags: ["Python", "Transformers", "NLP", "Dialog Systems"],
-    githubUrl: "https://github.com/Praveen14_25/ai-chatbot",
+    tags: ["Python", "Transformers", "Dialog Systems"],
+    githubUrl: "https://github.com/Praveen1425/MyPersonalAssitant",
   }
 ];
