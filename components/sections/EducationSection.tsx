@@ -17,8 +17,8 @@ const educationData: EducationItem[] = [
     institution: 'GMR Institute of Technology',
     qualification: 'B.Tech. in Computer Science Engg in Artificial Intelligence & Machine Learning',
     scoreLabel: 'GPA',
-    score: '9.41/10 (upto 5th sem)',
-    duration: '2022–2026',
+    score: '9.35/10 (upto 6th sem)',
+    duration: '2022–2026*',
     description:
       "Mainly focusing on Machine Learning, Deep Learning, Natural Language Processing and Data structures, Analysis of Algorithms",
   },
